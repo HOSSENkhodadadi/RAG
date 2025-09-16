@@ -1,0 +1,166 @@
+{
+    "ms-marco-spacy-llama8b": {
+        "dataset_name": "ms-marco",
+        "passages": {
+            "total_": 814,
+            "minimum_length": 88,
+            "average_length": 420,
+            "maximum_length": 922
+        },
+        "queries": {
+            "total_": 100,
+            "minimum_length": 11,
+            "average_length": 34,
+            "maximum_length": 76
+        },
+        "augmentations": {
+            "total_queries_augmented_with_spacy_ner": 100,
+            "total_queries_augmented_with_llama3-8b-8192_keyword_and_topic_extraction": 100
+        },
+        "relations": {
+            "minimum_related_passages": 4,
+            "average_related_passages": 8,
+            "maximum_related_passages": 10
+        },
+        "learning": {
+            "total_queries_in_train_set": 80,
+            "total_queries_in_validation_set": 10,
+            "total_queries_in_test_set": 10
+        }
+    },
+    "ms-marco-no-augmentation": {
+        "dataset_name": "ms-marco",
+        "passages": {
+            "total_": 8209,
+            "minimum_length": 59,
+            "average_length": 418,
+            "maximum_length": 922
+        },
+        "queries": {
+            "total_": 1000,
+            "minimum_length": 11,
+            "average_length": 34,
+            "maximum_length": 109
+        },
+        "augmentations": {},
+        "relations": {
+            "minimum_related_passages": 2,
+            "average_related_passages": 8,
+            "maximum_related_passages": 10
+        },
+        "learning": {
+            "total_queries_in_train_set": 800,
+            "total_queries_in_validation_set": 100,
+            "total_queries_in_test_set": 100
+        }
+    },
+    "trivia-qa-no-augmentation": {
+        "dataset_name": "trivia-qa",
+        "passages": {
+            "total_": 4830,
+            "minimum_length": 48,
+            "average_length": 11127,
+            "maximum_length": 497180
+        },
+        "queries": {
+            "total_": 1000,
+            "minimum_length": 21,
+            "average_length": 61,
+            "maximum_length": 213
+        },
+        "augmentations": {},
+        "relations": {
+            "minimum_related_passages": 0,
+            "average_related_passages": 5,
+            "maximum_related_passages": 10
+        },
+        "learning": {
+            "total_queries_in_train_set": 800,
+            "total_queries_in_validation_set": 100,
+            "total_queries_in_test_set": 100
+        }
+    },
+    "trivia-qa-spacy": {
+        "dataset_name": "trivia-qa",
+        "passages": {
+            "total_": 504,
+            "minimum_length": 220,
+            "average_length": 9548,
+            "maximum_length": 130777
+        },
+        "queries": {
+            "total_": 100,
+            "minimum_length": 22,
+            "average_length": 54,
+            "maximum_length": 102
+        },
+        "augmentations": {
+            "total_queries_augmented_with_spacy_ner": 100
+        },
+        "relations": {
+            "minimum_related_passages": 0,
+            "average_related_passages": 5,
+            "maximum_related_passages": 10
+        },
+        "learning": {
+            "total_queries_in_train_set": 80,
+            "total_queries_in_validation_set": 10,
+            "total_queries_in_test_set": 10
+        }
+    },
+    "hotpot-qa-spacy-llama8b": {
+        "dataset_name": "hotpot-qa",
+        "passages": {
+            "total_": 1000,
+            "minimum_length": 80,
+            "average_length": 598,
+            "maximum_length": 8307
+        },
+        "queries": {
+            "total_": 100,
+            "minimum_length": 40,
+            "average_length": 111,
+            "maximum_length": 418
+        },
+        "augmentations": {
+            "total_queries_augmented_with_spacy_ner": 100,
+            "total_queries_augmented_with_llama3-8b-8192_keyword_and_topic_extraction": 100
+        },
+        "relations": {
+            "minimum_related_passages": 10,
+            "average_related_passages": 10,
+            "maximum_related_passages": 10
+        },
+        "learning": {
+            "total_queries_in_train_set": 80,
+            "total_queries_in_validation_set": 10,
+            "total_queries_in_test_set": 10
+        }
+    },
+    "hotpot-qa-no-augmentation": {
+        "dataset_name": "hotpot-qa",
+        "passages": {
+            "total_": 9913,
+            "minimum_length": 63,
+            "average_length": 567,
+            "maximum_length": 8307
+        },
+        "queries": {
+            "total_": 1000,
+            "minimum_length": 32,
+            "average_length": 104,
+            "maximum_length": 542
+        },
+        "augmentations": {},
+        "relations": {
+            "minimum_related_passages": 1,
+            "average_related_passages": 10,
+            "maximum_related_passages": 10
+        },
+        "learning": {
+            "total_queries_in_train_set": 800,
+            "total_queries_in_validation_set": 100,
+            "total_queries_in_test_set": 100
+        }
+    }
+}

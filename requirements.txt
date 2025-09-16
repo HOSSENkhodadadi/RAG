@@ -1,0 +1,13 @@
+torch
+sentence-transformers
+faiss-cpu
+# scann
+datasets
+rank-bm25
+spacy
+rapidfuzz
+python-Levenshtein
+numpy
+pandas
+matplotlib
+tqdm
